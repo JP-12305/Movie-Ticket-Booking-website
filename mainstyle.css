@@ -1,0 +1,326 @@
+body{
+    background-image: url(theater.jpg);
+    /* background-blend-mode: darken;
+    background-color: antiquewhite; */
+    backdrop-filter: blur(4px);
+    /* background-position: center; */
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;  
+    width: 2200px;
+    
+    
+}
+
+/* marquee{
+    width: 2000px;
+}
+br{
+    width:2000px;
+} */
+#full{
+    width: 2000px;
+    height: 900px;
+}
+#title{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#scroll{
+    color: rgb(1, 245, 253);
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+    transform: translateY(-30pt);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+#logo{
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+}
+#pathuthala{
+    border: 10px solid #fff;
+    width: 620px;
+    height: 980px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#poster1{
+    border: 10px solid #2600ff;
+    /* border-top-right-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-top-left-radius: 10px; */
+    width: 600px;
+    height: 400px;
+    transform: translate(600 400);
+}
+#detail1{
+    color: mediumspringgreen;
+    /* transform: translate(20cm,-430px);  */
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#trailer1{
+    height: 400px;
+    width: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    /* backdrop-filter: blur(3px); */
+    transform: translate(8px,-460px);
+    /* border: 2px solid #2600ff; */
+    text-transform: uppercase;
+    /* opacity: 0.7; */
+}
+
+#play1{
+    opacity: 0.7; 
+    transform: translate(-5px,20px);
+}
+
+#play1:hover{
+    opacity: 1;
+}
+#trailer1:hover{
+    backdrop-filter: blur(3px);
+}
+#cast{
+    color: rgb(221, 243, 27);
+    text-align: center;
+    font-size: 25px
+}
+#rating{
+    transform: translate(50px,-1px);
+}
+#ratetxt{
+    font-size: 25px;
+    color: #fff;
+    transform: translate(230px,-230px);
+    text-decoration: underline yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#book1{
+    transform: translate(160px,-10px);
+    
+}
+#bookhere{
+    transform: translate(70px,-200px);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    height:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#viduthalai{
+    border: 10px solid #fff;
+    width: 620px;
+    height: 980px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: translate(700px,-1000px);
+}
+#poster2{
+    border: 10px solid #2600ff;
+    /* border-top-right-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-top-left-radius: 10px; */
+    width: 600px;
+    height: 400px;
+    transform: translate(600 500);
+}
+#detail2{
+    color: mediumspringgreen;
+    /* transform: translate(20cm,-430px);  */
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#trailer2{
+    height: 400px;
+    width: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* backdrop-filter: blur(3px); */
+    transform: translate(8px,-460px); 
+    /* border: 2px solid #2600ff; */
+    text-transform: uppercase;
+    /* opacity: 0.7; */
+}
+
+#play2{
+    opacity: 0.7; 
+    transform: translate(-5px,20px);
+}
+
+#play2:hover{
+    opacity: 1;
+}
+#trailer2:hover{
+    backdrop-filter: blur(3px);
+}
+#cast1{
+    color: rgb(221, 243, 27);
+    text-align: center;
+    font-size: 25px
+}
+#book2{
+    transform: translate(160px,-340px);
+    
+}
+#bookhere1{
+    transform: translate(70px,-530px);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    height:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#rudhran{
+    border: 10px solid #fff;
+    width: 620px;
+    height: 980px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: translate(1400px,-2000px);
+}
+#poster3{
+    border: 10px solid #2600ff;
+    /* border-top-right-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-top-left-radius: 10px; */
+    width: 600px;
+    height: 400px;
+    transform: translate(600 500);
+}
+#detail3{
+    color: mediumspringgreen;
+    /* transform: translate(20cm,-430px);  */
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#trailer3{
+    height: 400px;
+    width: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    /* backdrop-filter: blur(3px); */
+    transform: translate(8px,-460px); 
+    /* border: 2px solid #2600ff; */
+    text-transform: uppercase;
+    /* opacity: 0.7; */
+}
+
+#play3{
+    opacity: 0.7; 
+    transform: translate(-5px,20px);
+}
+
+#play3:hover{
+    opacity: 1;
+}
+#trailer3:hover{
+    backdrop-filter: blur(3px);
+}
+#cast2{
+    color: rgb(221, 243, 27);
+    text-align: center;
+    font-size: 25px
+}
+#book3{
+    transform: translate(160px,-340px);
+    
+}
+#bookhere2{
+    transform: translate(70px,-530px);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    height:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#address{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#street{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+}
+#feat{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    transform: translate(1000px,-200px);
+    width: 1000px; 
+    
+}
+#contact{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    transform: translate(1800px,-420px);
+    width: 150px;
+}
+#details{
+    height: 250px;
+    width: 2200px;
+}
+#credits{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    color: rgb(236, 213, 185);
+    transform: translate(0px,140px);
+}
+#rating1{
+    transform: translate(80px,-210px);
+}
+#ratetxt1{
+    font-size: 25px;
+    color: #fff;
+    transform: translate(230px,-440px);
+    text-decoration: underline yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.food{
+    transform: translate(100px,150px);
+    /* box-shadow: 2px 2px 2px black; */
+}
+.foodtitle{
+    text-align: center;
+    transform: translate(100px,150px);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.foodnavigate{
+    text-align: center;
+    /* color: white; */
+    transform: translate(100px,150px)
+}

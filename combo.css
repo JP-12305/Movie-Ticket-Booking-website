@@ -1,0 +1,75 @@
+*{
+    width: 2000px;
+}
+#title{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: gray;
+    
+}
+.mentitle{
+    font-size: 15px;
+    color: goldenrod;
+    text-shadow: 2px 2px 2px black;
+}
+.banner{
+    border: 5px white;
+    width: 2000px;
+    height: 300px;
+}
+table,th,td{
+    border: 5px solid cyan;
+    border-spacing: 10px;
+    padding: 20px;
+}
+table{
+    transform: translate(500px);
+}
+td{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+th{
+    border: 5px solid red;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.combolist{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline cyan;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.combotable{
+    transform: translate(-500px);
+}
+ul{
+    font-size: 20px;
+    width: 2000px;
+}
+.navigate{
+    text-align: center;
+    font-size: 10px;
+}
+.credits{
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    color: rgb(236, 213, 185);
+    text-transform: capitalize;
+}
