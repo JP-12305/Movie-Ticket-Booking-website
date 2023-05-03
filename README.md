@@ -1,4 +1,4 @@
-# Movie-Ticket-Booking-website
+# Movie-Ticket-Booking-Preview
 <hr>
 
 Open The `index.html` for the preview of the website
